@@ -1,0 +1,152 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    int a[12]={0,1,6,3,4,5,2,7,9,8,10,11};
+    int i,j,temp;
+    int S=3;
+    //insert sort testing
+    /*
+    for (i=1;i<S;i++){
+        for (int j=i;j>0;j--){
+            if (a[j]<a[j-1]){
+                temp=a[j];
+                a[j]=a[j-1];
+                a[j-1]=temp;
+            }
+            else break;
+        }
+    }
+    for (i=0;i<5;i++){
+        printf("%d",a[i]);
+    }*/
+
+    //merge sort testing
+    //insertsort(0,11,a);
+    //mergesort(0,S-1,a);
+    hybridsort(0,11,a);
+    printa(a);
+    return 0;
+}
+void hybridsort(int n, int m,int a[]){
+    //printf("merge %d and %d!",n,m);
+    int mid = (n+m)/2;
+    if ((m-n)<=0) return;
+    if ((m-n)<=2){
+        insertsort(n,m,a);
+        //printf("insertsort!");
+        return;
+    }
+    else if ((m-n)>1){
+        hybridsort(n,mid,a);
+        hybridsort(mid+1,m,a);
+    }
+    merge(n,m,a);
+    //printf("\nnew array");
+    //printa(a);
+
+}
+
+void insertsort(int n, int m,int a[])
+{
+    int i,j,temp;
+    int S=m-n+1;
+    for (i=n;i<S;i++){
+        for (int j=i;j>0;j--){
+            if (a[j]<a[j-1]){
+                temp=a[j];
+                a[j]=a[j-1];
+                a[j-1]=temp;
+            }
+            else break;
+        }
+    }
+}
+
+
+
+void mergesort(int n, int m,int a[])
+{
+    //printf("merge %d and %d!",n,m);
+    int mid = (n+m)/2;
+    if ((m-n)<=0) return;
+    else if ((m-n)>1){
+        mergesort(n,mid,a);
+        mergesort(mid+1,m,a);
+    }
+    merge(n,m,a);
+    //printf("\nnew array");
+    //printa(a);
+}
+
+void merge(int n,int m,int a[]){
+    if ((m-n)<=0) return;
+    //create two temp arrays L and R
+    int v1=m-n+1;
+    int v2,v3;
+    if (v1%2==0){
+        v2=v3=v1/2;
+    }
+    else {
+        v2=(v1/2)+1;
+        v3=v1/2;
+    }
+    int L[v2];
+    int R[v3];
+
+    //fill L and R array
+    int i;
+    int n1=n;//point to current a
+    for (i=0;i<v2;i++){
+        L[i]=a[n1++];
+    }
+    for (i=0;i<v3;i++){
+        R[i]=a[n1++];
+    }
+    //n should be m at this point
+
+    //merge 2 temp arrays
+    int j=i=0;
+    n1=n;
+    while (i<v2 && j<v3){
+        if (L[i]<=R[j]){
+            a[n1]=L[i];
+            i++;
+        }
+        else{
+            a[n1]=R[j];
+            j++;
+        }
+        n1++;
+    }
+    //shift remainings
+    while (i<v2){
+        a[n1]=L[i];
+        i++;n1++;
+    }
+    while (j<v3){
+        a[n1]=R[j];
+        j++;n1++;
+    }
+}
+//printa and printb to test for pointer
+void printa(int n[]){
+    int i;
+    for (i=0;i<12;i++){
+        printf("%d",n[i]);
+}
+}
+void printb(int n[]){
+    int i;
+    for (i=0;i<5;i++){
+        n[i]++;
+}
+
+    for (i=0;i<5;i++){
+        printf("%d",n[i]);
+}
+}
+
+
