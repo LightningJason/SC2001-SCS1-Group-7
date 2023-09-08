@@ -1,8 +1,8 @@
 # Project 1: Integration of Mergesort & Insertion Sort
 
 # Steps on what to do
-- Draft basic hybrid code!
-- Figure out what data to collect 
+- Draft basic hybrid code! (DONE)
+- Figure out what data to collect: Just need get at least up to 15million, because the qn require us to compare against merge sort for 15 million integers
 - Draft code to get that data
 - Plot graph
 - Figure out time complexities
