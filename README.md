@@ -24,11 +24,15 @@ By recording the number of key comparisons performed in for each array size, we 
 different sizes of the input list n. Compare your empirical results with 
 your theoretical analysis of the time complexity.
 
-2) With the input size n fixed, plot the number of key comparisons over 
+I fixed the S value at 15, then I ran my version of the algorithm 
+![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/42b2a34a-69f7-44d2-83bc-4ff5d5859156)
+
+
+3) With the input size n fixed, plot the number of key comparisons over 
 different values of S. Compare your empirical results with your 
 theoretical analysis of the time complexity.
 
-3) Using different sizes of input datasets, study how to determine an 
+4) Using different sizes of input datasets, study how to determine an 
 optimal value of S for the best performance of this hybrid algorithm
 
 ## Comparing with original Merge Sort
