@@ -16,24 +16,22 @@
 ## Introduction
 For small arrays, the recursive overhead of merge sort can become a significant portion of the overall execution time, making it less efficient compared to non-recursive algorithms like insertion sort. Hence, this project implements a hybrid sort that integrates Merge Sort with Insertion sort. 
 
-## Algorithm Implementation
+##A. Algorithm Implementation
 
-## Input Data
+##B. Input Data
 The algorithm was tested using inputs of arrays of sizes from (1000 to 510000).
 For each of the sizes, a random dataset of integers were generated in the range of 1 to 100.
 
-## Time Complexity
-By recording the number of key comparisons performed in for each array size, we are able to analyse the time complexity of our hybrid sort algorithm.
+##C. Time Complexity
+I) By recording the number of key comparisons performed in for each array size, we are able to analyse the time complexity of our hybrid sort algorithm.
 
-Fixing the S value at 50, the number of key comparisons was plotted against different array sizes. In the figure below, our empirical results were compared with the theoretical analysis of time complexity. 
+Fixing the S value at 50, the number of key comparisons was plotted against different array sizes. In the figure below, we compared our empirical results with the theoretical analysis of time complexity. 
 ![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/bec48f78-c8a1-400a-a16c-3a599608800e)
 
 
+II) With the input size n fixed at 1 million integers, we plotted the number of key comparisons against different values of S. In the figure below, we compared our empirical results with our theoretical analysis of the time complexity.
+![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/7521087a-acad-429e-8b00-53328449c03a)
 
-
-3) With the input size n fixed, plot the number of key comparisons over 
-different values of S. Compare your empirical results with your 
-theoretical analysis of the time complexity.
 
 4) Using different sizes of input datasets, study how to determine an 
 optimal value of S for the best performance of this hybrid algorithm
