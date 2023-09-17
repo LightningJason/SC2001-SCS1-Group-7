@@ -1,9 +1,9 @@
 # Project 1: Integration of Mergesort & Insertion Sort
 
-Contributors
-@LightningJason
-@dion2910
-@
+## Contributors
+1. Dion Lim ([@dion2910](https://github.com/dion2910))
+2. Jason Lim Jia Sheng ([@LightningJason](https://github.com/LightningJason))
+3. Tan Mu Hao ([@
 
 # Steps on what to do
 - Draft basic hybrid code! (DONE)
