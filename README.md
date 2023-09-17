@@ -27,15 +27,17 @@ For each of the sizes, a random dataset of integers were generated in the range 
 I) By recording the number of key comparisons performed in for each array size, we are able to analyse the time complexity of our hybrid sort algorithm.
 
 Fixing the S value at 50, the number of key comparisons was plotted against different array sizes. In the figure below, we compared our empirical results with the theoretical analysis of time complexity. 
+
 ![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/bec48f78-c8a1-400a-a16c-3a599608800e)
 
 
 II) With the input size n fixed at 1 million integers, we plotted the number of key comparisons against different values of S. In the figure below, we compared our empirical results with our theoretical analysis of the time complexity.
+
 ![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/7521087a-acad-429e-8b00-53328449c03a)
 
 
-4) Using different sizes of input datasets, study how to determine an 
-optimal value of S for the best performance of this hybrid algorithm
+III) Using different sizes of input datasets, study how to determine an optimal value of S for the best performance of this hybrid algorithm.
+
 
 ## Comparing with original Merge Sort
 After obtaining the optimal value of S, we compare the performance of the hybrid sort against merge sort in terms of key comparisons and CPU times on the dataset with 10 million integers.
