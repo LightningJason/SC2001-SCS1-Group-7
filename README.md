@@ -28,17 +28,15 @@ I) By recording the number of key comparisons performed in for each array size, 
 
 Fixing the S value at 50, the number of key comparisons was plotted against different array sizes. In the figure below, we compared our empirical results with the theoretical analysis of time complexity. 
 
-![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/bec48f78-c8a1-400a-a16c-3a599608800e)
-
+![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/14841457-277f-40e6-8822-615a72b259e2)
 
 II) With the input size n fixed at 1 million integers, we plotted the number of key comparisons against different values of S. In the figure below, we compared our empirical results with our theoretical analysis of the time complexity.
 
-![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/7521087a-acad-429e-8b00-53328449c03a)
-
+![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/50e05345-8eec-409e-a565-3d178019b554)
 
 III) Using different sizes of input datasets (100 to 1million), we study how to determine an optimal value of S for the best performance of this hybrid algorithm.
 
-![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/bbe2bd78-1953-4cb1-a0dd-af4e08c8c9e8) ![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/de5f1994-f094-4be4-84d3-c273110433bc) ![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/b931c7bb-1ca4-438d-9364-5c52252c298f)
+![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/62c13fb2-35ee-44f4-9fc4-50c83cc7be29)
 
 
 
