@@ -3,7 +3,7 @@
 ## Contributors
 1. Dion Lim 
 2. Jason Lim Jia Sheng 
-3. Tan Mu Hao ([@
+3. Tan Mu Hao 
 
 
 
