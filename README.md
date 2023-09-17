@@ -25,12 +25,10 @@ For each of the sizes, a random dataset of integers were generated in the range 
 ## Time Complexity
 By recording the number of key comparisons performed in for each array size, we are able to analyse the time complexity of our hybrid sort algorithm.
 
-1) With the value of S fixed, plot the number of key comparisons over
-different sizes of the input list n. Compare your empirical results with 
-your theoretical analysis of the time complexity.
+Fixing the S value at 50, the number of key comparisons was plotted against different array sizes. In the figure below, our empirical results were compared with the theoretical analysis of time complexity. 
+![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/bec48f78-c8a1-400a-a16c-3a599608800e)
 
-I fixed the S value at 15, then I ran my version of the algorithm 
-![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/42b2a34a-69f7-44d2-83bc-4ff5d5859156)
+
 
 
 3) With the input size n fixed, plot the number of key comparisons over 
