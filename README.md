@@ -28,7 +28,7 @@ I) By recording the number of key comparisons performed in for each array size, 
 
 Fixing the S value at 50, the number of key comparisons was plotted against different array sizes. In the figure below, we compared our empirical results with the theoretical analysis of time complexity. 
 
-![image](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/bec48f78-c8a1-400a-a16c-3a599608800e=250x250)
+![](https://github.com/LightningJason/SC2001-SCS1-Group-7/assets/103420694/bec48f78-c8a1-400a-a16c-3a599608800e)
 
 
 II) With the input size n fixed at 1 million integers, we plotted the number of key comparisons against different values of S. In the figure below, we compared our empirical results with our theoretical analysis of the time complexity.
