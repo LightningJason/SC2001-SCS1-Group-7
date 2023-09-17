@@ -5,14 +5,6 @@
 2. Jason Lim Jia Sheng ([@LightningJason](https://github.com/LightningJason))
 3. Tan Mu Hao ([@
 
-# Steps on what to do
-- Draft basic hybrid code! (DONE)
-- Figure out what data to collect: Just need get at least up to 15million, because the qn require us to compare against merge sort for 15 million integers
-- Draft code to get that data
-- Plot graph
-- Figure out time complexities
-- Presentation Slides
-
 ## Introduction
 For small arrays, the recursive overhead of merge sort can become a significant portion of the overall execution time, making it less efficient compared to non-recursive algorithms like insertion sort. Hence, this project implements a hybrid sort that integrates Merge Sort with Insertion sort. 
 
@@ -21,6 +13,7 @@ For small arrays, the recursive overhead of merge sort can become a significant 
 1. Algorithm Implementation
 2. Time Complexity Analysis
 3. Comparing with Merge Sort
+
 ## Algorithm Implementation
 
 ## Input Data
