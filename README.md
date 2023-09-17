@@ -23,6 +23,7 @@ The algorithm was tested using inputs of arrays of sizes from (1000 to 510000).
 For each of the sizes, a random dataset of integers were generated in the range of 1 to 100.
 
 ##C. Time Complexity
+
 I) By recording the number of key comparisons performed in for each array size, we are able to analyse the time complexity of our hybrid sort algorithm.
 
 Fixing the S value at 50, the number of key comparisons was plotted against different array sizes. In the figure below, we compared our empirical results with the theoretical analysis of time complexity. 
